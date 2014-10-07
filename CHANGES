@@ -1,0 +1,2032 @@
+Version 0.1.0
+-------------------
+
+ - 2.0.2 derp
+ - make docs again for 2.0.2
+ - 2.0.2
+ - remove test file
+ - remove commented out width
+ - remove collapse class on open so that dropdowns are viewable
+ - can't have overflo: visible for "in" which is present during entirity of transition.
+ - button group sizes for ie7 fixes
+ - adding border variable for dropdowns, making dropdown carets use dropdown vars
+ - improve button docs
+ - fix apple touch icons in examples
+ - add a super jank fix for horizontal-forms and .input-prepend/append in IE7
+ - enable buttons in input-append and input-prepend
+ - more homepage links cleanup, ditching the middots
+ - more homepage links cleanup
+ - clean up links on docs homepage and add link to direct download with docs
+ - resolve #1972, allowing add-ons at beginning and end of input-prepend/append
+ - fix more spacing issues with input append/prepend
+ - simplify code for input-prepend/append in inline and search forms
+ - remove need for floats and IE hacks for input-prepend and input-append--boom
+ - rewrite the fluid grid mixin to be simpler, per #2370
+ - fix overflow on .collapse.in to enable dropdowns within an open collapse
+ - enable button groups in modal-footer by removing 5px added margin between .btn
+ - merge #2476 to allow for custom popover arrow colors
+ - Merge branch 'luk3thomas-popover_arrow_colors' into 2.0.2-wip
+ - fix vertical align issue with labels in IE9
+ - add block level input mixin for border-box box-sizing
+ - remove text indent on carets (not needed) and add inline replacement mixin
+ - remove the unused text-indent on dropdown carets
+ - fix broken dropdowns in ie7 per #2333
+ - fix lingering tables bug
+ - fix table border bug with double borders on theads and use of colgroup
+ - use variable for navbar text line-height
+ - Merge branch 'zerkms-master' into 2.0.2-wip
+ - updated apple touch icons and moved input responsive fix from <480 to <767
+ - fix overflowing thumbnails in responsive <767px layouts
+ - in responsive layouts <767px, ensure inputs are not larger than 100% with box-sizing and a max-width
+ - Grammar fix in js/README.md
+ - vertical align middle on images, run make to rebuild
+ - Merge branch 'Gavrisimo-patch-1' into 2.0.2-wip
+ - update grid system mixins in less docs for new grid
+ - tweak button sizes on homepage
+ - ensure right align dropdown example doesn't go all the way off page
+ - fix gradient mixins by escaping them, add notes on progress bars
+ - fix js typo per #2471
+ - Merge pull request #2503 from maxbublik/patch-1
+ - add vars for navbar search
+ - clean up search form in navbar, add new variable for placeholder text color
+ - fix #2510, docs typo
+ - massive update to customize page to include all the new variables (and ensure they're being used in the .less files)
+ - simplify notes around using button dropdowns
+ - remove unused images, update examples to include soundready
+ - add new example site thumbnail
+ - change title attr to re-include twitter
+ - remove unused example diagrams
+ - make pre font-size a percentage of @baseFontSize
+ - fix typo per #2494
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - add button sizes to docs for button dropdowns, clean up styles for them
+ - make nav padding and negative margins the same
+ - stop doing oldschool escape substitution
+ - rebuild with latest grid changes - need 1.3 to build!
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - Merge branch 'new_grid' into 2.0.2-wip
+ - ignore Apple Double files
+ - simplify buttons docs section by changing a buttons to button elements
+ - rebold headings
+ - fix the font-family var by using inherit instead of empty string, fix font-weight in docs for jumbotron
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - clear up nav variables
+ - Merge pull request #2480 from jonathanmaron/master
+ - Add `vertical-align: middle;` to `img` elements
+ - Fixed double copy action in Makefile.
+ - added ability to set custom colors for popover arrow mixin
+ - remove non existent dist dir from phony makefil
+ - rebuild
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - add version to min js
+ - Merge pull request #2177 from phopkins/typeahead_friendly
+ - give pages custom titles based on names
+ - Merge pull request #2449 from burningTyger/master
+ - fix for typo
+ - Merge pull request #2443 from tarsis/master
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - Merge pull request #2436 from gruvii/2.0.2-wip
+ - set font-family for inputs and such via basefontfamily
+ - adding well sizes
+ - Added use of new headings variables.
+ - move padding from container to body for max-width: 767; responsive layout
+ - Merge branch 'davewasmer-master' into 2.0.2-wip
+ - fix input grid sizing, fix background color on form actions and append add-ons
+ - clearing up progress bar docs and resetting the striped one to match default bar (blue instead of green)
+ - adding table variables
+ - Merge branch 'charettes-small-button-dropdowns-caret' into 2.0.2-wip
+ - fix comment on bottom-up, should be dropup
+ - change dropdown hover/active color back to link color
+ - increase specifity of .pills li.active for dropdowns
+ - fix warning button issue per #2392 and add warning buttons to components
+ - clean up horizontal dl option and docs
+ - Merge pull request #2267 from dominicbarnes/dl_horizontal
+ - fix ie7 breadcrumbs per #2224
+ - Merge branch 'alexpeattie-master' into 2.0.2-wip
+ - utilize new dropdown variables
+ - add a ton new variables for type, buttons, inputs
+ - add uglify-js install information in compiling section. improve issue #1756
+ - true > child + varargs
+ - make sure to pass child var through
+ - when > 0 rather than when not 0
+ - new approach to grid with recursive mixins :D
+ - Fixed small button caret and moved less code to dropdowns
+ - Fix typo in .mustache file
+ - docs/scaffolding typo: Large display is 1200px and up, not 1210px
+ - Added disabled styles to pager
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - .progress-warning mention in docs
+ - Merge pull request #2305 from MeilleursAgents/features/warning_progress_bar
+ - Merge branch '2.0.2-wip' of https://github.com/twitter/bootstrap into features/warning_progress_bar
+ - Components: Added mention to warning progress-bar in docs
+ - fix navbar container for default 940px grid per #2194
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - set line-height for labels to prevent change in height when floated per #2222
+ - set list-style to none for breadcrumbs to resolve cross browser issues per #2224
+ - Merge branch 'meleyal-fix-carousel-docs' into 2.0.2-wip
+ - removing a few of the size classes, changing up the documentation
+ - undoing what I suspect are the 'dirty' parts of this commit
+ - Merge pull request #2227 from andriijas/2.0.2-wip-pillexamplefix
+ - Merge branch 'meleyal-patch-1' into 2.0.2-wip
+ - manually resolve #2266, typo in example HTML for breadcrumbs
+ - make .input-prepend/append .add-on text color the same as labels, #333, to close out #2276
+ - fix typo in js docs carousel section per #2299
+ - simplify selector for .modal-form per #2218
+ - really add protocol to examples
+ - add guard for child spans
+ - working through new grid implementation...
+ - add heads up label to new docs mention
+ - remove warning from icons section about :after labels, add section to explain spacing
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - Adding a 'horizontal' option to description lists, similar to .form-horizontal
+ - fix for @pamelafox and #1861
+ - and pause on hover option to carousel
+ - fix docs example in js page per #2225
+ - add version to docs homepage, fix docs example for forms
+ - Fix typos and clarify wording in carousel docs
+ - Fix broken links to fav and touch icons in examples, fixes #2244
+ - Progress bars: Added warning (orange) bar
+ - Fixing nav-pills code example - closes #2225
+ - add note about backdrop static
+ - update modal footers to use text-align instead of float on buttons for alignment
+ - Allows escape to bubble when menu isn't shown
+ - Fires change event when element is selected from menu
+ - Allow events to propagate / default if not used.  - All key events when the menu is not shown now propagate.  - Blur is also allowed to propagate.
+ - add clearfix to .form-actions for .pull-right and .pull-left supported buttons, per #1978 and #2173
+ - Merge branch 'couchbaselabs-clearfix-ing-form-actions' into 2.0.2-wip
+ - Merge branch 'clearfix-ing-form-actions' of https://github.com/couchbaselabs/bootstrap into couchbaselabs-clearfix-ing-form-actions
+ - fix #1954: icons in tabs add jank border
+ - restore fixed navbar container reset to grid mixin, add override for inputs within grid mixins to fix #2080
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - tighten padding on labels and badges given default line-height
+ - Merge branch '2.0.2-wip' of https://github.com/twitter/bootstrap into 2.0.2-wip
+ - rewrite the grid system. Clean shit up tons - only generate 12 columns by default - custom builder will do differently if you request it.
+ - set width to auto for default navbar container, then override it later for fixed navbars (done all via the #gridSystem mixins)
+ - clear up table styles and docs to fix rowspan and colspan issues for bordered tables, per #1918
+ - clarify responsive docs on media queries
+ - clean up and simplify support for bottom navbar by automagically turning dropdowns into dropups
+ - Merge branch '2.0/fork/components/dropup' of https://github.com/buraktuyan/bootstrap into buraktuyan-2.0/fork/components/dropup
+ - add support and docs for .navbar-fixed-bottom
+ - move container up in default grid mixin
+ - move table columns mixin to mixins.less
+ - Merge pull request #2143 from inmarelibero/2.0.2-wip
+ - fix second part of #1962
+ - update forms help-block
+ - substituted hard-coded number of columns (12) with @gridColumns
+ - added .span[13-24] and .offset[12-23] to support up to 24-columns layout
+ - Merge branch '2.0.2-wip-nowrapfix' of https://github.com/andriijas/bootstrap into andriijas-2.0.2-wip-nowrapfix
+ - Merge pull request #2129 from andriijas/2.0.2-wip-navtabs
+ - Merge pull request #2138 from laczoka/2.0.2-wip
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - adding responsive utility classes and matching docs section with super neato table and test
+ - .input-append should work for select element, fixes #2137
+ - 100% width on .tab-content
+ - Bring back nowrap to labels and badges
+ - remake
+ - fix cycling in carousel
+ - adding basic badges support
+ - introduce new mixin to do navbar vertical centering
+ - update inline forms to resolve checkbox label with space in it and overlapping content, per #1969
+ - remove max-width on img from reset and put in docs only, per #1552
+ - fix overflow issue on tabbed content per #2079
+ - remake after merging buttons update
+ - Merge branch 'billyvg-main' into 2.0.2-wip
+ - Update old button selectors 'small' and 'large' to be 'btn-small' and 'btn-large'
+ - add horizontal divider support to nav list, including documentation for it, per #2106
+ - enable use of span in place of a for .disabled in pagination, per #1406
+ - no more uppercase in readme
+ - readme cleanup
+ - move overflow and max-height on modal to modal-body instead
+ - quick edit to new global styles section
+ - add new global styles docs section for mentioning doctype requirements, base body changes, and type/links; also tightened up code styles
+ - Merge branch 'andriijas-2.0.1-wip' into 2.0.2-wip
+ - Merge branch 'abbr' of https://github.com/jacobrask/bootstrap into jacobrask-abbr
+ - Merge branch 'alert-headers' of https://github.com/jacobrask/bootstrap into jacobrask-alert-headers
+ - Merge branch 'gridcontainer' of https://github.com/jacobrask/bootstrap into jacobrask-gridcontainer
+ - Merge branch 'opera-radial' of https://github.com/jacobrask/bootstrap into jacobrask-opera-radial
+ - commit leftover from make
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - simplify text color in navbar by placing the color on global .navbar component
+ - Merge pull request #2089 from jacobrask/ie6hack
+ - Update documentation for abbreviations
+ - Remove underscore hack for IE6
+ - Separate span12 and container classes
+ - Add Opera-prefixed radial gradient
+ - Use inherit on alert-heading color
+ - Add class for upper case abbreviations, aka initialisms
+ - Only show help cursor/border for abbr with title
+ - All abbreviations are not upper case initialisms
+ - Merge branch 'master' into 2.0.2-wip
+ - fix bootstrap-button toggle regression + tests
+ - merge in and remake for responsive navbar dropdown fix
+ - Merge branch 'tagliala-collapse-dropdown-fix' into 2.0.2-wip
+ - fix right aligned dropdowns
+ - Merge branch '2.0.2-wip' of github.com:twitter/bootstrap into 2.0.2-wip
+ - Merge pull request #2063 from DominikTo/master
+ - clarify forms in navbar per #2072
+ - Merge pull request #2066 from artstorm/2.0.2-wip
+ - clarify misc components subhead
+ - Fixed compile problem with LESS 1.2.1.
+ - Fixed a wrong behaviour when using collapse and dropdown in responsive layout
+ - fixed syntax error
+ - fixed typo (whitespace)
+ - add mention of js compilation to single file in customize page per #2003
+ - add small section to navbar docs on text in the component, per #2035
+ - removing duplicate reset filter since we changed the main button to use buttonBackground mixin, per #2024
+ - fix duplicate input prepend/append css selectors per #2026
+ - swap last .btn-dark reference
+ - fix grid typo in subnav
+ - fix page header example and docs per #2048
+ - Keep origin in track
+ - 2.0.1
+ - Merge branch '2.0.1-wip'
+ - bring back checkbox borders to iOS by conditionalizing the border: 0; on it to IE7-9; fix word break on pre in IE
+ - change clearfix mixin to drop parens that prevent it from being a class, too
+ - add mini buttons per #1971
+ - fix buttons focus state and swap a buttons for button buttons
+ - fix responsive media queries to use 979 and 980 where appropro
+ - add mention of navbar vertical divider in docs
+ - add note about popover placement
+ - don't try next if not next
+ - add idea to modal markup exmaple
+ - rebuild bro
+ - fix dropdown links
+ - null out interval so that pause doesn't resume on next or prev
+ - rebuild alerts
+ - fix alerts
+ - Adding .clearfix() to .form-actions to allow for .pull-right button containers
+ - Merge branch '2.0.1-wip' of https://github.com/twitter/bootstrap into 2.0.1-wip
+ - add semicolons to the end of js files
+ - update irc spacing in readme
+ - add irc note
+ - change up fonts on form elements to remove unnecessary font-family on label element, per #1950
+ - Clean up inverse button using variables, adding button group examples. Also adding inverse inline label
+ - fix filename mention in js docs per #1938
+ - ensure help-block is block per #1937
+ - clean up nav-header in responsive
+ - adding makeRow and makeColumn mixins for generating more semantic layouts
+ - allow .input-prepend/.input-append to work in .navbar per #1681
+ - add docs for alt form control sizing per #1700
+ - add typography pattern .page-header to components per #1701
+ - update docs on fixed nav per #1726
+ - clear up scaffolding page to separate fixed from fluid grid systems
+ - add link to docs compiling section in readme
+ - update readme to clarify dependencies of make command, per #1756
+ - add note to button dropdowns about js plugin dependency per #1746
+ - clean up modals.less comments, add new class for optional use on modal forms to remove bottom margin
+ - change classname from .btn-dark to .btn-inverse, change use text
+ - Merge branch '2.0.1-wip' of https://github.com/simonfranz/bootstrap into simonfranz-2.0.1-wip
+ - add hero-unit docs per #1880
+ - enable the use of .nav-header in dropdowns per #1827
+ - add navbar background hover variable and fix uneditable-input with append/prepend controls
+ - lower z-index of fixed subnav to prevent overlap of dropdown items in .navbar-fixed
+ - Merge branch '2.0.1-wip' of github.com:twitter/bootstrap into 2.0.1-wip
+ - Merge branch 'patch-2' of https://github.com/cwiederspan/bootstrap into cwiederspan-patch-2
+ - update ff comment in buttons
+ - edit comment on IE7-8 support of :focus in navbar-search
+ - honor data attributes set on modal as well
+ - standardize default button gradient styles to match other buttons, reset it's IE filter to improve IE7 hover
+ - move shim after css
+ - re-add protocol to the shim
+ - Merge branch '2.0.1-wip' of https://github.com/twitter/bootstrap into 2.0.1-wip
+ - add note about popover placement
+ - write out icon classes explicitly to enable find via browser
+ - update comment to reflect ie support
+ - reset line-height for file input in ie9
+ - change fixed height on responsive textareas to min-height
+ - Merge branch 'patch-1' of https://github.com/cvrebert/bootstrap into cvrebert-patch-1
+ - fix tabs content wrapping per #1620
+ - update buttons docs for .disabled class per #1774
+ - update tooltips message in upgrade docs
+ - Merge branch '2.0.1-docs-update' of https://github.com/smaboshe/bootstrap into smaboshe-2.0.1-docs-update
+ - make button examples button element and add upgrade note on tooltip positions per #1532
+ - support small for legend per #1544
+ - remove color on :active of buttons
+ - clear up some messaging in docs on fluid grid system and nesting overall
+ - remove the reset type from cancel buttons in forms examples per #1844
+ - fix inline form checkbox/radios
+ - fix type on responsive grid per #1852
+ - move legend fix out of horizontal and to all forms
+ - Merge branch '2.0.1-wip' of https://github.com/jmar777/bootstrap into jmar777-2.0.1-wip
+ - fix javascript text on tooltips per #1862
+ - update selectors for icons to include matcher for icon class in middle of class attr, remove docs mention of requiring icon-* first
+ - fix type in less docs per #1902
+ - fix some single vs double quotes, fix typo in js docs per #1900
+ - manually address #1895
+ - clarify structure of responsive css file
+ - add best practices and re-org the button groups
+ - clarify npm install command in less docs
+ - scope th bottom vertical-align to only thead, update code styles to include more comments in less file and scrollable option for pre tag
+ - Merge branch 'barsoom-ol-unstyled' into 2.0.1-wip
+ - Merge branch 'ol-unstyled' of https://github.com/barsoom/bootstrap into barsoom-ol-unstyled
+ - Added the carret of the button
+ - Added a black/dark button
+ - Added an overriding filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) to the .subnav-fixed class that fixes the bug caused on nav dropdown menus when "docked" in the fixed position.
+ - webkit legend margin fix for non-horizontal forms
+ - Typo.
+ - Merge pull request #1781 from pamelafox/patch-7
+ - remove small class
+ - Merge branch 'master' of https://github.com/twitter/bootstrap into 2.0.1-wip
+ - fix docs for carousel markup
+ - Merge pull request #1808 from wrightlabs/patch-1
+ - don't use e.target incase button has icon or other content inside it
+ - some (android) devices need this viewport meta tag for responsive design to work
+ - some (android) devices need this viewport meta tag for responsive design to work.
+ - Some devices need this for responsive design to work
+ - Add ol.unstyled
+ - merge in #1782, remake to compile html, add some i18n tags
+ - Merge branch 'pamelafox-patch-8' into 2.0.1-wip
+ - fix for #1779, use line-height var
+ - move formfieldstate mixin to mixins.less for #1785
+ - merge in #1757 and make the chance to the mustache template, then remake
+ - Merge branch 'master' of https://github.com/bastula/bootstrap into bastula-master
+ - fix #1786 to manually fix typo in js docs links
+ - rearrange order of 3d and skew mixins:
+ - Merge branch 'tobaco-master' into 2.0.1-wip
+ - make after merging in breadcrumbs wrap fix
+ - Merge branch 'et-fix_long_breadcrumbs' into 2.0.1-wip
+ - Merge branch 'fix_long_breadcrumbs' of https://github.com/et/bootstrap into et-fix_long_breadcrumbs
+ - Merge branch 'CaryLandholt-master' into 2.0.1-wip
+ - Merge branch 'master' of https://github.com/CaryLandholt/bootstrap into CaryLandholt-master
+ - manual patch of #1449 to make thumbnails use grid vars
+ - Merge branch 'raphaelz-patch-1' into 2.0.1-wip
+ - rearrange some of the docs on buttons to show examples of all possible renderings along with code snippets and note about usage; also fix the portrait tablet media query
+ - Grammatical changes have been made as suggested by @cvrebert for issue #1787.
+ - Adding tooltip example to javascript docs. It's particularly helpful to show the pre-generated HTML for tooltips, as inspecting the source will show post-processed HTML with data-original-title attributes and may confuse folks (where folks=me :).
+ - Javascript update docs for tooltips, based on @fat's feedback.
+ - Removed double declaration of Skew
+ - fix alert tests + add show option back to modals
+ - parallel fix to mustache template
+ - Fixed a typo in base-css.html which allows the user icon to be shown on the example button
+ - add label hover style for ability to make it a link
+ - Merge branch 'jarijokinen-master' into 2.0.1-wip
+ - Merge branch 'master' of https://github.com/jarijokinen/bootstrap into jarijokinen-master
+ - resolve #1602 and add table hover style
+ - remove 940px from default grid heading
+ - close #1628 to add padding to all inline checkboxes/radios
+ - fix #1631 by adding focus to radio buttons
+ - clean up labels per #1656
+ - address #1722 by finishing incomplete sentence on responsive
+ - fix for #1658 to give .label-success proper text
+ - fix #1665 by correcting tabs example markup
+ - add mixin for text-overflow
+ - add mention of required classes to horizontal forms
+ - add another code example for horizontal forms
+ - adding code snippets to form examples
+ - Merge branch 'noahblon-master' into 2.0.1-wip
+ - manually resolve #1684
+ - #1693: manual fix of the pull request to add class name changes to pills/tabs to upgrade guide
+ - #1695: manually fix broken primary button instances
+ - #1697: update upgrading docs to include mention of no more secondary class in modals
+ - follow up to #1702, add callout on component alignment in tabs/pills
+ - #1702: add callout to navbar for component alignment
+ - manually handle #1703 for note on horizontal forms
+ - update docs with call on meta tag for responsive
+ - fix meta tag for viewport in examples and shims
+ - The &lt; and &gt; escapes have nothing to do with Unicode.
+ - correct css selector for .control-label, required in the docs but not in the CSS files
+ - #1712: fix typo in js docs
+ - #1707: remove rgba() background override on navbar active items for customization
+ - #1706: protocol independent html5shim added, and moved after the CSS for loading time's sake
+ - fix broken alert example with data-dismiss
+ - #1732: make examples of alerts in docs components page dismissable
+ - #1715: strip code of styles when in a pre
+ - buttons and icons updated for improved placement and variable support for icon paths
+ - remove max-width on dropdown menus
+ - fix cutoff follow button
+ - allow alternate form layouts to hide inputs with .hide on them
+ - Fixes typo on download page
+ - Merge pull request #1603 from mikaelbr/master
+ - its core (typo)
+ - Merge pull request #1647 from htanata/fix_alerts_code_example
+ - Fix alerts JavaScript code example.
+ - Wrap long breadcrumb trails
+ - add mention of classes to use for button sizes
+ - add count to follow button, tweak links to fit on one line for 940px
+ - Merge branch 'shama-master' into 2.0.1-wip
+ - fix inverted warning text and bg colors in less docs page
+ - Merge branch 'zhongwei99-master' into 2.0.1-wip
+ - fix incorrect uses of it's in the docs
+ - fix incorrect use of 'caret'
+ - Fixed duplicate and wrong IDs and label fors in forms.
+ - Minor typo fix.
+ - Typo fixes
+ - Merge branch 'eirikb-master' into 2.0.1-wip
+ - Merge branch 'master' of https://github.com/eirikb/bootstrap into eirikb-master
+ - Merge branch 'mshafrir-master' into 2.0.1-wip
+ - Merge branch 'master' of https://github.com/mshafrir/bootstrap into mshafrir-master
+ - follow up to #1501 to update notes in sprites.less
+ - add note for icon class usage per #1501
+ - add line item to docs on upgrading per #1488
+ - Merge branch 'master' into 2.0.1-wip
+ - fixing some docs pages for i18n
+ - Merge pull request #1549 from TannerNMO/patch-1
+ - remove 2.0-wip ref
+ - #1566: add note about removal of secondary-nav in 2.0
+ - fix makefile to reset zips
+ - #1571: remove fixed width on file inputs
+ - rebuild with correct zip
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - Merge pull request #1576 from ejain/patch-1
+ - Import the responsive css *after* setting the body padding to fix the issue described in #1570.
+ - Fixed typo "tabs" ==> "button"
+ - nuke all curly ticks
+ - fix spelling in examples page
+ - fix the makefile
+ - fix missing ; in buttons.less
+ - update scaffolding responsive section to reflect proper media query ranges
+ - fix mis-labeled label
+ - fix js links in components
+ - remove twitter widgets js from examples
+ - Merge pull request #1490 from amenonsen/master
+ - fix icon-bar class in exampless
+ - remove excess td in less docs
+ - fix hover state on .nav-list for active links
+ - fixing jquery links in examples
+ - remove unused css files and add scaffolding and hero-unit to the builder
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - fix that jank hack
+ - rebuild
+ - only add the anyalytics to production
+ - Fixed simple grammatical errors. http://grammar.quickanddirtytips.com/backward-versus-backwards.aspx
+ - Removed / from 'Get the javascript' in components.mustache
+ - Removed extra / from 'Get the javascript'-link in components.html
+ - Fix broken named anchor link for LESS compiling instructions.
+ - Allow labels to be links
+ - Typo fix
+ - fix links and rebuild
+ - move examples into docs...
+ - Merge branch '2.0-wip'
+ - update upgrade page
+ - Merge branch '2.0-wip'
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - remove unused examples, update examples docs page, add starter template to examples, remove warning alert banner, add screenshots
+ - Merge branch '2.0-wip'
+ - add makefile to make it easier to publish to gh-pages...
+ - remove warning alert on less docs
+ - Merge branch '2.0-wip'
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - move js stuff into assets
+ - fix broken nav on less page
+ - Merge branch '2.0-wip'
+ - Merge branch '2.0-wip'
+ - clean up responsive media queries and docs css
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge pull request #1459 from nkryptic/add-help-text
+ - fix typo in base css docs
+ - fix js docs typo
+ - add form help-* documentation
+ - fix disabled button docs
+ - Merge pull request #1457 from nkryptic/2.0-wip
+ - chance icon class
+ - add nav- prefix to rest of docs
+ - disable cursor on disabled and active pagination links
+ - once more, overhaul the icons and use the css regex selector on our icons
+ - fix the other disabled button style
+ - fix button styles on active and disabled
+ - update layout docs
+ - restore a few commented out responsive items
+ - update icons everywhere to be scoped per other components, fix broken elements on js docs page
+ - refactor the navs to use prefixed classes, because you know, consistency is beast mode
+ - *really* refactor the buttons and update them all over the docs
+ - refactor buttons.less
+ - speed up topbar animation for responsive
+ - fix wrong value in grid column width in download page
+ - implement @textColor for body text
+ - large carousel images and margin bottom added
+ - fix docs: move .pull-left from search input to search form in navbar
+ - account for floated inputs in the .navbar-form
+ - adding warning (orange) button, fix responsive navbar problem
+ - remove all new dropdown button stuff
+ - testing out button dropdown group
+ - add skew mixin
+ - add in regular button dropdowns, rejigger the button dropdowns section to reflect change
+ - remove top 5px padding from first inline radio/checkbox
+ - update vars in less and download pages
+ - update tests for popover to use proper classes
+ - fix forms typo on error state
+ - updated upgrade page to reflect popover changes
+ - namespace popover values
+ - scope .content in container example
+ - rename vertical-divider to divider-vertical, add more space around the divider
+ - update reverse fluid layout to mirror the fluid layout
+ - update js docs page to clarify usage of images on carousel
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - overhaul grid mixins and variables, standardize fluid grid system and enable it across responsive layouts
+ - Merge pull request #1421 from MarkReeder/2.0-wip
+ - Fixes issue with Opera flickering on the collapse plugin when reset is called without specifying the size
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - add license for responsive and rebuild
+ - subnav adjustments
+ - move vars and mixins for default grid back to appropriate files
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - remove .collapse from navbar responsive docs
+ - rebuild zip
+ - reran make
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix broken navbar collapse
+ - remove dist dir
+ - check in dist dir for hb5 + update images to point to correct spot for builder
+ - Fixing the Docs for Tabs dropups
+ - Extending the dropup support to tabs and pills
+ - Adding dropup support to split buttons and navbar
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - update navbar collapse everywhere and remake
+ - update collapsible nav in navbar
+ - Merge pull request #1404 from ChadMoran/patch-1
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix form styles on prepend/append for consistency, update code docs with examples of the code snippets
+ - Fixed @warningText and @warningBackground colors in docs
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - fix animated/striped gradients in progress bars
+ - move building zip file into docs/makefile
+ - refined pager styles to give a border on the links and improved hover state
+ - update text on icons note
+ - fix js readme api capitalization
+ - last minute addition of a simple fluid grid for our fluid examples; it needs work, so we're not documenting it now
+ - update hero example and examples overview
+ - remove form docs from the styles and markup, it's no longer needed
+ - add swatches to the color variables in less docs page
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - removing required .navbar-static class, rewrote docs to reflect the change, and updated the upgrade docs page to include the navbar section
+ - Merge pull request #1367 from lukeman/update-example-layouts
+ - update all example pages to latest version
+ - revamped the thumbnails examples to make them work and look better at higher resolution
+ - namespace progress bars and labels classes
+ - updates to responsive and docs for responsive navbar
+ - clarify and tweak media queries
+ - remove benefits from homepage html
+ - update docs to simplify some css
+ - fix alert close position
+ - update components page to include docs for the new navbar collapse feature, re-add responsive.less to downloader
+ - fix dropdowns in subnav
+ - more responsive tweaks for tablet
+ - fix the navbar click and a few jank responsive problems
+ - remove background from accordion, and use border instead
+ - remove padding from first-child of inline radios/checkboxes
+ - fix goign between small view large view with responsive collapse
+ - turn off brand hover for now + get nav toggling in mobile
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - blah
+ - add in a navbar button for toggling the nav items
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - vertical align inline checkboxes/radios to improve rendering in topbar
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - remove uglify variable from makefile
+ - change .span* inputs to use content-sizing: border-box; to make them behave as block level elements
+ - comment for progress bars firefox keyframes
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix tabs-below typo
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - typahead does case insensitive matching with simple sorter + accepts highlighter option
+ - restore IE filters, but reset them  on buttons
+ - add checkbox/radio border for ios in responsive
+ - fix border and border radius on radios/checkboxes for iOS, fix forms docs alignment on small devices
+ - reset border-radius only for ie9?
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - darken buttons, uncomment out firefox keyframes from progress bars
+ - add trailing ;
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - fix z-index issue with modals for popovers,tooltips,and dropdowns
+ - update mixins to fix radial gradient
+ - increase padding on modal-header after decreasing h3 line-height
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - nav, buttons, and docs updates to account for outline: 0; on :active
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - clean up js api for dropdowns
+ - Merge pull request #1339 from lookfirst/nodebug
+ - no debugger
+ - remove js for table sorts
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - all unit tests passing in ie7
+ - updated upgrading page
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - clean up application js a bit
+ - change text on js docs page to improve rendering on iphone, update responsive for carousel considerations
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - modal refinements in docs and general responsiveness
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - remove quick start section to simplify landing page + start rewriting application js to work ie7
+ - remove fixed width from labels table
+ - extend block level smalls to h2s in docs
+ - block level page-header h1 small for readability on 480px and under
+ - scope subnav link styles to first child, and no dropdowns
+ - drop span2-4 on form examples to 1-3
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - rewrite the code section of the type docs
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - fix failing typeahead tests
+ - give append/prepend inputs higher z-index on focus
+ - call attention to notices in js docs more
+ - fix regression in textarea shadows
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - adding wells and close icon to the docs under misc in components, with a new subnav style
+ - move the matcher and sorter into the options - encourage people to override them...
+ - add toggle to docs for popover/tooltip
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - add zindex option for tooltips/popovers and fix modal zindex doc example
+ - fix right aligned dropdowns in navbar by adding left: auto; to nix default alignment
+ - add clearfix to control-group for longer labels and any other unforeseen circumstances
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - rgba text color on active buttons for a bit more contrast from their non-active siblings
+ - simplify build process more - remove really annoying date.
+ - update progress bars to have a solid edge until 100% filled
+ - use quotes on attr selectors more consistently
+ - icon spacing in small buttons and nav lists
+ - fixing up buttons and examples of implementing icons
+ - Merge branch '2.0/docs/base/icons' of https://github.com/buraktuyan/bootstrap into buraktuyan-2.0/docs/base/icons
+ - comment icons that are 1px off
+ - combined .disabled and [disabled] and confirmed in ie7/8
+ - new tab focus style and mixin
+ - clean up use of mixins to highlight them appropriately in your fav editor
+ - Merge branch 'ie_7_components' of https://github.com/phopkins/bootstrap into phopkins-ie_7_components
+ - overhaul navbar behavior in responsive css
+ - Adding new examples to the icons' docs.
+ - remove page-header from docs and add to type.less
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - update examples and restore icons
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - add missing paren
+ - only build mustache files
+ - fix inputs in navbar
+ - remove unused images from docs assets
+ - update the docs for icons
+ - Merge branch '2.0-wip' of https://github.com/buraktuyan/bootstrap into buraktuyan-2.0-wip
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Rebuild css and html
+ - Moves buttonBackground to mixins (issue 1292)
+ - update icon examples to show icons in differently sized buttons
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - rebuil update layout
+ - align text in buttons so folks can easily make them different widths
+ - Changes non-transparent navbar search box color to match transparent one better
+ - i18n download page
+ - Fixes left/right border overlap for IE7
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - huuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuge update to doces and stuff
+ - IE7 fixes for split buttons and dropdowns
+ - Cleans up IE7 inline margins for buttons and adds them for sprites, also fixes button padding for large/small sizes
+ - Adds necessary ie7-inline-block macros
+ - Brings back uneditable input
+ - Moves IE7-specific button padding to only apply to form controls
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - Merge branch '2.0-wip' of git://github.com/twitter/bootstrap into 2.0-wip
+ - Merge branch 'ie_7_base' of https://github.com/phopkins/bootstrap into phopkins-ie_7_base
+ - buttons for toggle links in js docs, code example for offsetting in grid
+ - Rebuild bootstrap.css
+ - Compensates for IE7 first-child-input-inheriting-hasLayout-parents-margins bug for appended text form element
+ - Fixes up internal and external spacing for IE7 buttons
+ - Collapses borders for IE7, which doesn't respect border-spacing
+ - adding outline callout as a fallback for IE--needs testing though, thought I already added this
+ - Changing the color of the default icons from black (#000) to grayDark (#333)
+ - Updating to latest version of Glyphicons Halflings set (v.1.5) along with some icon enhancements like:
+ - change typeahead to data-source instead of data-data and add to docs
+ - Merge pull request #1272 from napoleond/2.0-wip
+ - change endpoint to point to actual server...
+ - rebuild + copy images to docs when making
+ - simplify readme
+ - move doc building into base make method + build bootstrap to doc assets
+ - moving structure around + more work on builder...
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - getting closer....
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - scope icons to .icon
+ - flip order of content on home page
+ - Merge pull request #1280 from mistermarco/2.0-wip
+ - fix typo in docs/scaffolding.html
+ - Merge pull request #1269 from phopkins/ie_typeahead
+ - fix height of download button
+ - more builder crap
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge pull request #1274 from linrock/patch-2
+ - adding white sprites
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - some js for javascript for builder (stil incomplete)
+ - fix links to apple touch icons
+ - Move hero-unit css out of pattern.less and include it. Fixes #1185.
+ - fix legend margin collapse
+ - Merge branch 'form_alignment' of https://github.com/phopkins/bootstrap into phopkins-form_alignment
+ - Enable default browser key behaviour when typeahead isn't showing.
+ - move down background iamge
+ - make css after merge
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge pull request #1271 from linrock/patch-1
+ - consistent new lines at ends of files
+ - small text change on downloads page
+ - separate code from type css files
+ - break scaffolding down into smaller less files
+ - make accordion links block level
+ - add values to inputs for grid variables on download page
+ - Fix icon margin in large buttons.
+ - Switches from Array#filter to jQuery.grep for IE<=8 support
+ - allow icons in small buttons
+ - rebuild *.css
+ - Makes inputs and buttons align middle so they line up in all browsers
+ - Clears border-radius on checkboxes because they look bad on IE
+ - Fixes off-by-1px between checkbox and form label (all browsers)
+ - more docs homepage adjustments
+ - updated homepage docs to distill strapline
+ - Merge branch 'phopkins-ie_buttons' into 2.0-wip
+ - move around some comments in buttons.less, update labels to use correct variables, add snippet to docs about IE9
+ - Merge branch 'ie_buttons' of https://github.com/phopkins/bootstrap into phopkins-ie_buttons
+ - Rebuild *.css
+ - Fixes background color for disabled buttons to match pre-IE fix (which prevents hover effects)
+ - change label fo first subnav link on js docs
+ - fix tabs example on js docs page
+ - More *.css building
+ - Makes default button the tiniest bit of gray for IE<=9
+ - Merge branch 'ie_buttons' of https://github.com/phopkins/bootstrap into phopkins-ie_buttons
+ - space out masthead a git more
+ - Rebuild of *.css
+ - Removes filters as a way to provide gradients for IE<=9  - Lets us use rounded corners in IE9  - Makes hover / active states work correctly in IE<=9
+ - overhaul frontpage jumbotron, add js for twitter buttons back in, fix up some form ids and classes, straighten out the use of primary button variable
+ - fix small icons on homepage
+ - fix forms examples and allow for inputs in labels
+ - remove some old -moz- prefixes from mixins while we're at it, dropping FF3.6 support
+ - Merge branch '2.0-wip' of https://github.com/kristerkari/bootstrap into kristerkari-2.0-wip
+ - consistency in download page heading
+ - remove all tablesorter assets and css
+ - fix button group shadows, update js docs to fix alert js file link
+ - update mixins to use slightly diff variables within some parametric mixins
+ - finish the rest of the less page mixins docs
+ - Drop khtml gradient, shorten old webkit gradient
+ - start filling out mixins tables
+ - docs fixes
+ - finish off the static stuff for build and download page
+ - swap fieldsets for divs
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix select alignment and height
+ - height auto on mutli select
+ - rebuil
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - prevent default
+ - fix bottom visual bug on carousel images
+ - enable support for form states on select elements
+ - darken active state on subnav with scrollspy added
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - change form fields back to inline-block to allow for inline-help text in default form markup
+ - rebuild + add spy to template
+ - updated comments in forms.less and added uneditable-textarea class to extend uneditable-input
+ - remake after merging large button group fix
+ - Merge pull request #1135 from kevva/patch
+ - missing icon class in code example
+ - remake after updating variables from @lookfirst
+ - Merge pull request #1212 from lookfirst/white
+ - missed a white
+ - s/#fff/@white/
+ - fix mention of old vertical forms class'
+ - update remaining icons in docs
+ - update responsive to use latest grid mixins
+ - spec'ed out an examples overview page with links to current examples; examples still need work themselves though
+ - fix location of favicon
+ - clean up the updated container app layout a bit
+ - Merge pull request #1196 from OpenGrid/2.0-wip
+ - update docs to include separate responsive css, update docs to highlight proper file name, updated makefile to build responsive separately
+ - fix media queries in scaffolding
+ - fix modal examples on js page, update modal close button positioning
+ - updated icons to require a base class .icon
+ - fix margin on input buttons in modals
+ - fixed columns to 7+3 for better proportions
+ - fixed span sum to 10 to display properly. Grid has 12 columns.
+ - spec out all mixins on less page
+ - remove checkboxes from js docs page overview, they'll be on the download page instead
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - move css builder and downloader to dedicated page, start to update remaining sections on LESS docs page
+ - Merge pull request #1181 from jwieland/updatelessdoc
+ - caught another old reference to 1.1.3
+ - fix js link on chop shop
+ - refine spacing on fixed subnav
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix up docs css for responsive and subnav, fix forms error states
+ - minor doc updates to inform user they need the current less.js 1.2.1 or they will be hit by this bug #952
+ - fix sub navs fer the otherrzz
+ - subnav spy scrolls blaawerh
+ - scrollspy working for sub navs
+ - remove top margin from alert close, chance close line height to 18px (baseLineHeight)
+ - Merge branch 'fix-alert-close-line-height' of https://github.com/pokonski/bootstrap into pokonski-fix-alert-close-line-height
+ - adding actual images to carousel to ensure you can see things are animating; updated styles of carousel controls to work on light and dark backgrounds and use opacity for effects
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - allow for text in progress bars
+ - updated docs css to fix subnav on iOS
+ - Merge pull request #1175 from Xaro/2.0-wip
+ - Fixed typo
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - remove link from transitions on js page
+ - Merge pull request #1140 from mchung/patch-1
+ - redo the form examples to enable better responsive layout
+ - fix the thumbnails more examples section
+ - update the subnav on all pages
+ - remove rogue html elements
+ - fix typo on js docs
+ - refine fixed docs bar
+ - lighten alert on less page
+ - modify the scaffolding page to fix the language around preboot/grid variables
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - finish updating form state and alert variables in less docs page
+ - make subnav fix
+ - revamp alert message and error state color/text/bg to be variables
+ - fix code type size
+ - fix mailto link
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge pull request #1149 from Calvein/2.0-wip
+ - fix broken index page heading, update variables and less pages
+ - typo with i18n
+ - rebuild
+ - Merge pull request #1158 from pokonski/wrap-stuff
+ - Wrap stuff in components.mustache
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - Merge branch '2.0-wip' of https://github.com/MGaetan89/bootstrap into 2.0-wip
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - docs updates to make the getting started section more responsive, updated the benefits to be clearer and swap x for checkmark
+ - i18n for index page
+ - i18n index
+ - add i18n to upgrading
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - scaffolding i18n
+ - Merge pull request #1138 from lookfirst/fixjs
+ - add i18n for less.mustache
+ - rebuild base-css
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - remake
+ - Merge pull request #1153 from MGaetan89/2.0-wip
+ - Final translation tags in Base CSS
+ - Added jquery.tablesorter js file
+ - Typo on tablesorter
+ - Fixed a mailto typo
+ - remake
+ - More translation tags in Base CSS
+ - Start adding tag for Base CSS translation
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - attempt to fix select list alignment in Firefox by removing padding. not quite fixed 100%, but getting there.
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - javascript pages markedup with {{_i}}
+ - Fixed typo in Makefile
+ - 2.0-wip: fix js heads
+ - Merge pull request #1134 from trevyn/2.0-wip
+ - Merge branch 'apostrophe-grammar' of https://github.com/phopkins/bootstrap into phopkins-apostrophe-grammar
+ - add bottom-up styles to the dropdown menus
+ - remake css
+ - Merge pull request #1131 from XORwell/master
+ - Fixes apostrophe in less.html
+ - Spelling and typos in components.html and javascript.html
+ - Fixes apostrophe usage in base-css.html
+ - Remove specific top value from large btn-dropdown.
+ - i don't think the batch s/2011/2012/ was supposed to hit this. :)
+ - Fix typo in docs/index.html
+ - move translation tag for bootstrap
+ - start wrapping text in {{_i}} for translation
+ - rebuild with new templates
+ - rebuild
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - add templates for doc generation
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix up the modals in responsive a bit
+ - comment in forms'
+ - Set matching line-height for .close inside .alert
+ - Merge pull request #1118 from olvlvl/2.0-wip
+ - .alert-message no longer exists
+ - cut margin in half on default forms
+ - clean up subnav aesthetics
+ - remove dropdowns, add in sub nav instead
+ - revert to negative margin on grid row
+ - Merge branch 'normalize' of https://github.com/necolas/bootstrap into necolas-normalize
+ - :focus:required:invalid: http://www.alistapart.com/articles/forward-thinking-form-validation
+ - rebuild
+ - Merge pull request #1046 from kevva/dropdown-menus
+ - give default valuse for border-radius-custom
+ - don't use negative margin - use first child to set to 0
+ - fix sans-serif order in forms.less and rebuild
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - share -> share-alt
+ - Merge pull request #1098 from lookfirst/fixstuff
+ - Merge pull request #1106 from olvlvl/2.0-wip
+ - Merge pull request #1024 from gnuwilliam/master
+ - Merge pull request #1053 from scottwater/patch-1
+ - Using variables rather than numeric values
+ - Merge pull request #1105 from olvlvl/2.0-wip
+ - Fixed typo
+ - Merge pull request #1104 from cgunther/dropdown-docs
+ - Merge pull request #1101 from ansman/2.0-wip
+ - rename tooltip test file
+ - Move placement of ID in docs example for dropdowns
+ - Rename the tooltip test file
+ - Add testcase to popover
+ - Make the popove respect custom classes
+ - add ability to cycle carousel to a particular frame
+ - remove tabs
+ - more efficient matcher + bold matched query in item
+ - make case lookahead case insensitive
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - change scrollspy offset to be option + fix typo in scrollspy
+ - Merge pull request #1097 from buraktuyan/2.0-wip
+ - clean up variable usage with colors
+ - Optimizing all PNG files, saving 60.02 KB in total without any quality lost. (Using PNGOUTWin 1.5.0.100, Xtreme strategy in compability mode)
+ - fix typo
+ - only prevent default of links in sections
+ - should check for alert class not alertmessage
+ - only prevent default if getting data-href
+ - Remove global reset in favour of contextual reset.
+ - Merge pull request #1069 from necolas/2.0-wip
+ - Remove search input cancel button in WebKit-OSX.
+ - Remove unnecessary CSS properties from the clearfix mixin.
+ - Add various always-ignore extensions, files, and folders to `.gitignore`
+ - Added missing 'data-dismiss="modal"' on the first example model source.
+ - Make dropdown menus scalable.
+ - don't scope placeholder text color to just inputs
+ - make button active state clearer by lightening the inner shadow and removing the background image
+ - rename navbar variables, change navbar search placeholder to mixin
+ - re-org variables
+ - revamp the mixins file to organize things a bit more, make placeholder text use a new variable instead of relying solely on @grayLight
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - scope table styles to a class, .table, instead of on the generic element as a smarter default
+ - cleanup accordion css and add comments
+ - Merge pull request #1042 from boberkfell/2.0-wip
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - typo fix in component docs
+ - wrap transition
+ - fix js link in docs nav, restyle accordion with new css
+ - Creating asynchronous tests for loading buttons, because they have setTimeout() function
+ - reorder properties
+ - do some trickery to get borders looking right
+ - fix margin
+ - make accordions little bit smoother
+ - Merge pull request #1020 from lookfirst/fixtest
+ - fix typo
+ - updated accordion and carousel; accordion still needs work
+ - move carousel to separate stylesheet, update popovers to fix ie7 bug, fix pagination, fix alerts
+ - fix the js alerts examples
+ - make dl and child elements less specific
+ - fix grid sized horizontal form layout
+ - fix modal horizontal alignment
+ - make horizontal form labels map to default grid sizing
+ - normalize the alert classes to match last night's flip for form and table classes
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix some ie7 bugs, improve dropdowns for ie due to lack of a shadow, fix pager example code
+ - Merge pull request #1012 from pkauders/patch-1
+ - Fix typo in Responsive design content
+ - gray out links for active state on pagination
+ - dates updated to 2012
+ - change up classes on tables and forms, fix nav list styles in example
+ - adding the pager component after rewriting the pagination docs and css
+ - restore top bar on home page
+ - allow btn-groups to work in navbars
+ - fix duplicate icons
+ - update preventing double border line for bordered tables by account for th elements in tr elements
+ - add user-select mixin
+ - make inline and search form labels inline-block
+ - move up alert message close icon
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - rewrite alert messages to use less code, combine the look of default and block messages, simplify docs
+ - Merge pull request #1003 from cgunther/docs-fixes
+ - add Progress Bars to Components narbar dropdown
+ - fix section ID for thumbnails
+ - fix section ID for pagination
+ - fix navbar links to base CSS > typography
+ - fix navbar links to scaffolding > grid system
+ - Merge pull request #995 from renajohn/2.0-wip
+ - Fixed when placement is a function
+ - update dropdowns spacing and docs section spacing
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - updated js includes to make nav work everywhere
+ - Merge pull request #986 from purwandi/2.0-wip
+ - Remove sidebar with icon from my own repo
+ - Merge branch '2.0-wip' of github.com:purwandi/bootstrap into 2.0-wip
+ - Fix id anchor javascript
+ - nuke uber footer, bring back topbar dropdowns
+ - fix heading
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix type shorthand in blockquote
+ - Merge pull request #972 from billmn/2.0-wip
+ - Fixed broken anchors on js docs page
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - add build tool for js +  rename twipsy to tooltip + lots of little doc cleanup
+ - comments and borders for multiple tbody
+ - account for multiple tbody with 2px border between
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - typo
+ - remove some tabs from demo + fix dropdowns for pills
+ - remove empty margin property
+ - remove static popovers, modals, and twipsies from components in favor of full javascript page
+ - updated js pages to put examples first
+ - add utilities.less file for generic classes
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix dropdowns for active state in dropdown menus
+ - Merge pull request #932 from blizzy78/typo
+ - move hover state out of timeout duh
+ - fix typo
+ - change prepend to append
+ - add note about firefox persisting disabled state on buttons
+ - fix modal insertion boolean
+ - only append modal to dom if not already present
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix navbar styles for .brand
+ - updated js docs page to use grid of plugins instead of table
+ - make dropdowns toggle when clicked (for mobile)
+ - document slide and slid methods
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - add slide and slid events + disable sliding during slide
+ - fix placement of dropdowns in navbar after getting to general in those styles
+ - correct navbar scaffolding code snippet
+ - clean up dup css in responsive, fix navbar dropdown caret
+ - rejigger z-index ranks for popovers/topbar/etc
+ - get tabs working in ie9
+ - get carousel working in firefox
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - fix buttons for firefox
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - add icons in nav list example and markup
+ - cleanup organization of tabbable nav section
+ - move collapsing navbar nav to 480 and below, unfloat nav for 768 and below to wrap links with position absolute
+ - Added example sidebar navigation with icon in docs
+ - fix responsive navbar nav treatment by using hover instead of click
+ - adjust navs for fine details on dropdowns in stacked nav and improved open state there
+ - add nav class to tabs in javascript demo
+ - fix styles on right aligned blockquote to flip padding and border appropriately
+ - fix docs for fluid layout, update topbar to fix active text color for links
+ - clean up some spacing on the dropdown for typeahead
+ - remove / on js, fix link to typeahead, remove old gradient on dropdown hover
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - first pass at ultra basic autocomplete
+ - recomment out the moz stuff for progress bars since less can't compile it right now
+ - fix progress bars by removing border and negative margins
+ - remove unused css and reorder the toggle classes
+ - redoing the tabs on bottom, left, and right
+ - remove tabbable stuff to try new approach
+ - nuke unused code, add to upgrading page
+ - fix up dropdowns and navbar docs for the new dropdown styles
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - overhaul the entire tabs component structure and docs; remove side nav and make it a nav list to build on new .nav base class
+ - Merge pull request #923 from purwandi/2.0-wip
+ - Fix line number pretyprint in javascript docs
+ - overhauled docs to include example markup, add language around browser support and classes
+ - Merge branch '2.0-wip' of https://github.com/pokonski/bootstrap into pokonski-2.0-wip
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - more table docs cleanup
+ - fixing tablesorter styles by adding the jquery plugin back to the lib, fixing the docs examples
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - update link to collapse plugin
+ - Merge pull request #919 from groodt/master
+ - Small spelling correction.
+ - scratch that, tweaking dropdowns in tabs
+ - Progress bars
+ - adding back table grid sizing; will need support for responsive perhaps
+ - add html5 invalid state for super fancy errors via browser
+ - scope close icon in modal to modal-header to allow alerts in modals to use close icons
+ - change up the z-indexing and add some popover/twipsy content to the test modal on the js docs to help avoid future bugs
+ - another quick pass at ranking all zindexes and listing them in variables for quick overview and editing later
+ - better ranking of z-indexes for tipsies so they appear above dropdown menus but below fixed topbar
+ - quick stab at fixing modal placement on 480px and down
+ - update fluid layout to use variable for sidebar width
+ - overhauled dropdowns now require use of .caret for dropdown arrow, redid the button group docs section, added the split button dropdown docs section
+ - update the fluid examples to use new classes and clear the floats properly from sidebar
+ - tweak spacing once more on prettify; add support for uneditable inputs to input-append and prepend
+ - make fixed navbars have lower z-index
+ - update form shadows and tweak prettyprint styles
+ - fix form field sizing for selects, document form field grid sizing
+ - fix reponsive 1200+ media query to resolve mismatched gutters and negative margins on the row
+ - fix forms in navbars, fix examples' navbars
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - front page docs updated to include old getting started section, update code styles to look like github gists, and lots more docs updates
+ - start of autocomplete plugin
+ - Merge pull request #910 from manveru/patch-1
+ - Merge pull request #907 from ansman/2.0-wip
+ - Use `date` instead of `DATE`, that's the POS*X way.
+ - Add a test case for issue #908 (twipsy doesn't respect custom classes)
+ - Make twipsy respect custom classes when using a custom template
+ - fixing conflict in dividers in navbar, fix navbar docs, fix search form in navbar
+ - docs cleanup and navbar brand hover
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - massive docs update, mostly to all our new forms, and to the buttons
+ - listen to window for dropdown clear
+ - add jank js back to docs application.js for responsive dropdown in topbar
+ - default cursor for disabled links in pagination
+ - make dropdowns use unicode character for :after
+ - move mega link footer to scaffolding to try it out, fix broken button text shadow, change UL/OL margins back, make li color same as body
+ - Tweak the docs and address the new forms list of controls: radios and checkboxes are now hanging controls to wrap text properly
+ - breaking out patterns.less even more, removing unnecessary div from checkbox and radio lists--now just labels and inputs
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - add a quick little example of icons in buttons
+ - tweaks abound, updated prettify styles, new sidenav component started, sprite icons started
+ - Merge pull request #886 from giveo/master
+ - Merge branch 'master' of https://github.com/twitter/bootstrap
+ - switch to async widget.js script
+ - Changing copyright in example footers from 2011 to 2012
+ - actuall use interval option :P
+ - clean up options implementation for carousel
+ - ease-in-out slide transition
+ - basic carousel implementation
+ - placeholder design for carousel
+ - add quotes to courier new
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - start playing with carousel stuff
+ - missing parantheses
+ - border radius on large button toolbar
+ - add appended input example to docs, fix help-text wrapping issue by clearing float
+ - fix quotes in font-family usage
+ - fix tables for rowspan
+ - allow select with size attr to not have fixed height
+ - add ie7 inline block mixin and add ability to center pagination
+ - clean up some css for github issues: input prepend z-index, modals revamped for responsive
+ - capitalize Less in makefile, add print less file (not yet compiled)
+ - remove button from topbar for testing
+ - remove negative margin from .brand in docs, update navbar to support buttons up thurr
+ - clean up some comments and fix a bug with buttons in navbar by removing too generic of a link color
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge pull request #850 from sferik/scrollable_modal
+ - Rebuild CSS
+ - Make modal windows scrollable
+ - clean up dead elements in firefox (which is droping transitionEnd events :(
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - move position of twipsy into getPosition so it can easily be extended for svg use
+ - fix for linux
+ - Merge pull request #842 from jonathaningram/patch-2
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - update docs for placement
+ - Merge pull request #846 from purwandi/2.0-wip
+ - Fix id tabs on docs component
+ - fix unit test for twipsy
+ - more js cleanup after gnarly merge
+ - check for prettyprint on window
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - change above below to top bottom and add "inside" placement option
+ - Update docs to show available events on alert
+ - From #822
+ - clean up all the js across all the doc pages
+ - minor cleanups
+ - remove inline input field CSS since that's not required as all inputs are inline-block anyway
+ - update comment on select bg bug and confirmed it was fixed, scoped responsive .span* to .row
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix dropdowns in components docs page
+ - update thumbnails to keep images from going past edges of thumbnails
+ - fix mobile example sites, remove unused JS from docs index
+ - rename media grid to thumbnails, recompile bootstrap, fix examples for mobile phones
+ - updated all docs to jQuery 1.7, move all docs JS to application.js, and move dropdowns css to dedicated file
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - docs updates, forms updated to include error states and more examples, remove text-shadow from gradientbar mixin to fix bug
+ - animate -> animation
+ - update more readme changes - introduce target specificty convention to more plugins
+ - add default margin for popover and twipsy
+ - update all to new on api + add animation support to tabs
+ - giant refactor - all spec passing again...
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - mostly docs updates, but also some bug fixes per github issues
+ - rename transitions to transition and fix scrollspy example
+ - Merge pull request #808 from piscis/patch-1
+ - changed npm package name to less
+ - rename transitions js file, fix link in js docs
+ - updated docs to include other less apps
+ - updated buttons docs
+ - clearer grid vars docs language
+ - updated footers everywhere
+ - center example sites in docs on mobile
+ - fix specificity on pills
+ - Merge branch 'add-vertical-nav-divider' of https://github.com/evnm/bootstrap into evnm-add-vertical-nav-divider
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - unstyle image inputs
+ - tweaks and increase specificity of pills and active classes
+ - Merge pull request #773 from cgunther/label-in-dropdown-menu
+ - Merge pull request #778 from talltroym/master
+ - Merge pull request #777 from ceejayoz/2.0-wip
+ - remove uber large responsive stuff
+ - updated index page to add featured sites, more docs tweaks
+ - help tables not look like shit on mobile maybe? also fix bordered table example
+ - update js in footer, add max-width to img
+ - add jank js for prototyping new topbar to all docs pages
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - updated to include sub nav and pip nav, new docs updates, topbar nav refinements for media queried settings
+ - Add code block for condensed table example
+ - fix docs for bordered-table
+ - remove text-shadow from labels
+ - Add vertical nav divider example in components doc page.
+ - Merge remote-tracking branch 'upstream/2.0-wip' into add-vertical-nav-divider
+ - define constructor on prototypes
+ - Merge branch '2.0-wip' of https://github.com/twitter/bootstrap into 2.0-wip
+ - start of carousel
+ - adding temp idea for subnav to docs
+ - adding step nav to components
+ - update all leads on docs pages
+ - updates to add warning for bordered tables to docs, fix to spacing on prettyprint pre blocks
+ - adding bordered table to docs and showing it works with colspan
+ - Add vertical nav divider.
+ - Merge branch 'form-feedback-fix' of https://github.com/tinyfly/bootstrap into tinyfly-form-feedback-fix
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - misc docs updates, revamped tables CSS save for grid columns and tablesorter options
+ - Merge pull request #722 from tinyfly/grid-input-size-fix
+ - scope form feedback states to .control-group instead of unused .clearfix
+ - add input width calculation fix from #408 to the 2.0 branch
+ - Merge pull request #711 from smaboshe/updates-to-2.0-docs
+ - Capitalising 'Bootstrap' and abbreviations. Fixing typos.
+ - add code to reset data for collapsed element so that item can be intitialized with correct options
+ - derp
+ - turn attribute rules to list
+ - change even was removed, in favor of show shown
+ - fix heading for js readme...
+ - rename tabs to tab - clean up lots of api stuff make href acceptable target val
+ - remove trailing semicolons - we'll be hosting minified files with semicolons - no reason to make the dev source ugly
+ - Remove static github buttons and replace with iframe versions
+ - clean up comments for better built files
+ - allow scrollspy to target a specific nav
+ - new plugin "collapse" for collapsible lists and "accordion" like support
+ - fix copy paste bug
+ - clean up scrollspy a bit - add public api method
+ - fix some more modal things
+ - refactor modal
+ - refactor dropdown in accordance with readme
+ - refactor alerts + add new readme which idefientifies goals for 2.0 js
+ - update buttons js for button groups
+ - Merge pull request #694 from martinbean/patch-1
+ - Removed funky characters.
+ - Fixed a typo. Because I'm a Grammar Nazi.
+ - push disable setting to the event loop - this allows for form submit to begin
+ - remove js min from repo
+ - add minified source to min dir in js + add uglify to make process
+ - add build script for minified files and allow elements to be returned to getContent and title in popovers
+ - update comment numbers
+ - act on all twipsy instances
+ - merge in js from 1.4... start working through js docs
+ - revert all js stuff back to 1.4 :/
+ - update property order and do some misc cleanup
+ - remove code styling if it's in a pre tag
+ - make uneditable inputs work with span* classes
+ - spelling mistake in comment
+ - Merge pull request #621 from vshih/master
+ - updated font mixins courtesy of @apancutt
+ - Merge pull request #645 from mkaschenko/master
+ - update tables docs after merging in the condensed styles
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge pull request #647 from lookfirst/condensed
+ - make form classes match table classes (readable left to right), update docs associated with it
+ - start breaking down patterns.less into more distinct files, update docs for forms to use correct classes
+ - added condensed example
+ - Fix dropdown anchor
+ - clean up var defintion
+ - Merge branch 'master' of https://github.com/twitter/bootstrap
+ - improve alert api - $("#fat").alert("close") should just work.
+ - Merge pull request #629 from leocassarani/patch-1
+ - Fix grammatically incorrect sentence (copy-paste oversight?)
+ - Fixes tab event selector in tabs example
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - ensure two-thirds grid offsets work the same as the others
+ - Merge pull request #579 from raulriera/2.0-wip
+ - fix broken state of active buttons
+ - updated docs pages (still wip), adding misc css classes, added form styles from 1.4, added github buttons to homepage
+ - Removed trailing backslash :)
+ - remove selector options for popover, in favor of more generic content selector
+ - Merge pull request #577 from smaboshe/updates-to-2.0-docs
+ - Merge pull request #554 from rvagg/poveropt
+ - Added the view port meta tag for proper responsiveness
+ - Removed the 'View javascript docs' link because it is the page we are currently on. Copy tweak for intro paragraphy of the javascript docs.
+ - Use 'fluid-container' instead of 'container-fluid' in the docs.
+ - removed twipsy options
+ - Merge remote-tracking branch 'twitter/master' into poveropt
+ - don't include data-content/data-title as specifications for options in twipsy/popover
+ - tests & docs & twipsy too
+ - Merge branch 'master' into poveropt
+ - rebuild
+ - Merge branch 'master' of https://github.com/twitter/bootstrap
+ - update to jquery 1.7 + add toggle method to twipsy/popover
+ - Merge pull request #557 from JulianBirch/master
+ - Add a missing bracket back in.  (Prevents dotLess from compiling.)
+ - optionable selectors for title & content elements
+ - add the tab-pane class back to example
+ - make .tab-content backwards compat with 1.3
+ - Merge branch 'master' of https://github.com/twitter/bootstrap
+ - fix > & bug and point to 1.1.4 less version
+ - Merge pull request #537 from hermanschutte/master
+ - Merge branch 'master' of https://github.com/twitter/bootstrap
+ - update button comment
+ - Merge pull request #544 from nikcub/master
+ - bump version number in docs
+ - Add correct description for bootstrap-buttons.js in Javascript section
+ - remove preserve-3d
+ - update 1.4 docs
+ - no idea
+ - rebuild
+ - Merge branch 'master' of https://github.com/twitter/bootstrap into dev
+ - update 1.3 to 1.4 stuffs
+ - rebuild css, add preserve-3d for faster animations, fix whitespace in mixins.less
+ - Merge pull request #525 from mchung/patch-1
+ - Fixed typo in Makefile
+ - fix tipsies, modals, and popovers from overlaying topbar
+ - fix pagination inconsistencies
+ - adding unofficial github buttons
+ - Merge branch 'kriansa-patch1' into dev
+ - tweak alignment for IE7 and chrome
+ - Merge branch 'patch1' of https://github.com/kriansa/bootstrap into kriansa-patch1
+ - Merge branch 'dev' of github.com:twitter/bootstrap into dev
+ - remove fixed height from select elements for IE7
+ - issue #240 - firefox drop css transition events :{o
+ - recompiling and pushing just to be sure
+ - remove alt tab styles for now, too complicated to accomplish both static and tabble; fix up CSS a bit
+ - Merge branch '2.0-left-and-right-tabs' of https://github.com/avalanche123/bootstrap into avalanche123-2.0-left-and-right-tabs
+ - small docs tweak
+ - overhaul the table styles and update those everywhere in the docs, update the button docs, spec out the forms docs
+ - updating table documentation, jumping to dev to bring over new table styles from there
+ - updated docs and type styles for blockquotes and a few fixes for type
+ - add template option and make title an optional attribute for popover
+ - allow the use of data attributes to define popover options
+ - add active class to css for buttons, write new spec for button, "use strict"
+ - fix some of the docs styles at 480 to 768
+ - star work on bootstrap-buttons.js
+ - Merge branch 'master' of github.com:twitter/bootstrap into dev
+ - adding resizable class and mixin
+ - remove html from body background
+ - Update README.md
+ - Update LICENSE
+ - remove background color from html tag
+ - adding more icons for the homepage for open source, twitter, and html5/css3
+ - overhauled the front page to feel a bit more marketing-like, added the awesome glyphicons to bring some life to the docs
+ - implement left and right tabs styles
+ - update docs for responsive
+ - Fixed a bug that wasn't working as expected on Linux
+ - fix new navbar in components
+ - address issue #414 and fix up a number of docs loose ends
+ - breaking down the main page into subpages for easier, more comprehensive documentation
+ - Merge branch 'patch1' of https://github.com/kriansa/bootstrap into kriansa-patch1
+ - fix vertical position of dropdown menu in .tabs
+ - fix prettyify and update the table styles to include a condensed flavor
+ - update to docs to cleanup pagination for smartphones, fix some pagination inconsistencies
+ - Aligned close buttons to the middle of alert message
+ - tweaks to the responsive layout to improve type
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - Merge pull request #461 from tinyfly/responsive-row-fix
+ - updating the docs to include more responsive fixes, adding rows to the responsive changes as well to undo negative margin
+ - Merge pull request #462 from southpolesteve/master
+ - Use proper classes for three column layout
+ - remove negative margin on .row so we don't hang off the left edge of the screen
+ - tweaking prettify styles to introduce dark theme
+ - move javascript to le footer
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - fix the popover background color to work in ie7
+ - updated fluid example to not use floated sidebar and instead use position absolute; not ideal, but it works in most cases
+ - fix scrollspy simplify stuff more - break everything.
+ - update docs to streamline the tables section, remove redundant css for tables to simplify borders
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - remove redundant styles from inline forms
+ - update docs copy to include mention of info alert messages
+ - greatly simply js plugins - remove js api where reasonable
+ - refinement to the responsive section
+ - adding responsive stuff to docs to stub that out, updated type to make ul and ol margins match p tags
+ - update docs to change topbar to navbar
+ - overhauled tables section of docs to minize copy and emphasize code
+ - add abbr styles, overhaul type docs section to remove lots of verbose text and put emphasis on tables and more scannable content
+ - update all code elements in docs
+ - remove bottom margin from h1
+ - updated js docs page to new 12 column layout, fix subhead jumbotron styles to match new front page
+ - few tweaks to responsive stuff, updated docs for grid system (still needs copy editing)
+ - update to responsive to fix new masthead
+ - updated docs to include quick links and twitter buttons, added updated blueprint pattern to background
+ - tweak the h2s again for better spacing, adjust docs, remove white bg if possible on file input, few other tweaks
+ - more tweaks to responsive
+ - tweak line-height of h2 and h3 to not be gihugeous, updated responsive to improve tablet grid and phone styles
+ - add responsive.less file
+ - tweak navbar styles for static version to not cause problems on responsive layouts
+ - fix uber size in responsive; remove @extraspace variable by changing grid to use :first-child over negative margin
+ - biiiiiig update coming for responsiveness
+ - updated index of docs to use html5 self closing tags, add responsive shell to bootstrap file
+ - first pass at moving over the new tabs stuff to 2.0
+ - remove new tab stuff since it breaks backwards compatability
+ - adding new tabble stuff, still a huge work in progress
+ - updated pills to include vertical (stacked) variation in patterns and documentation
+ - remove color scheme variables, remove font-face mixin
+ - update navbar search form
+ - share new navbar in examples
+ - new navbar introduced to replace topbar
+ - Merge pull request #408 from tinyfly/grid-input-size-fix
+ - fixing form input width sizing, removing unused CSS
+ - adjust width calculations for formColumns to fix issue #404
+ - cleanup tabs and pills to prep css for new stuff
+ - start adding examples to docs for alternate tabs and pills
+ - small tweak to dropdowns for autocomplete if you implement dropdowns that way
+ - improve text color and borders for legibility
+ - new form state styles with lighter footprint
+ - add extra states to the form examples
+ - Merge branch '2.0-wip' of github.com:twitter/bootstrap into 2.0-wip
+ - update input prepend and append to use baseline variable
+ - refactor fluid layout to be more specific to not interfere with modal content while adding right sidebar option
+ - remove bottom margin from form in modals for temp fix"
+ - modal was not centered correctly
+ - remove select from docs form sizes
+ - remove select from the new form grid sizes and let them inherit the default grid ones
+ - add better handling to the tables so that the thead and tbody first row can have rounded corners where applicable
+ - place popovers and twipsies above modals for use there
+ - fix problems with scope in tables when using th in tbody
+ - bring hover state back to the .brand element in the topbar to fix a bug
+ - update docs to simplify first table example and introduce nested documentation
+ - resolve problem with nested tables having double borders
+ - Merge pull request #381 from smaboshe/docs
+ - .gitignore update.
+ - For consistency, updated rendered 'pre' in docs to '<pre>' in the 'Presenting code' section.
+ - Updated rendered '>html<' in docs to '<html>' in the 'Presenting code' section.
+ - get modal working with new data-attrs
+ - pass more args to placement function
+ - add dropdown tab selection support
+ - start updating to data- driven js
+ - remake
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - add selector option to alerts, update modal settings strategy
+ - fixing multi select on chromium ubuntu by setting background color explicitly
+ - fixing multi select on chromium ubuntu by setting background color explicitly
+ - merging master which has the label fix
+ - Merge branch 'master' into dev
+ - adding new mixins
+ - adding placeholder font-face mixin which doesn't work yet
+ - update variables to inlude @baseFontSize, @baseFontFamily, @baseLineHeight for easier customization; added placeholder for @primaryButtonColor, but didn't implement
+ - more small changes to compiled css to try things out
+ - scope the label back to the form element
+ - make links in error messages not be blue, but instead match the text color and be bold:
+ - make it so that checkboxes and radio options-list can have wrapping labels; needs to be cross browser tested yet
+ - overhaul the grid CSS to make it more durable for tables and forms to use the same sizing methods; need to see about improving this in the future
+ - resolve issue with form fields and errors causing no space between fields with consecutive errors; needs more work, but will address later
+ - fix the popover bug in the app example by making the custom css more specific for .content
+ - Merge pull request #346 from alepee/master
+ - Merge pull request #362 from purcell/safe-dropdown-initialization
+ - Add jquery.ready hook after defining plugin, to avoid breakage when used with modernizr/yepnope
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - preboot.less > variables.less in docs
+ - Merge pull request #361 from samuelcarlton/patch-1
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - remove options check in modal.js
+ - Fixed comment to show appropriate file name.
+ - white-space: nowrap; for .label
+ - Merge pull request #329 from lmjabreu/master
+ - wait for transition to end before triggering shown event
+ - whitespace
+ - Merge branch 'fix_hide_before_show_bug' of https://github.com/aaronj1335/bootstrap into aaronj1335-fix_hide_before_show_bug
+ - add note about making sure to include boostrap-twipsy before popover script
+ - show should be fals for modal default
+ - @dmyers settings fix #255
+ - Merge branch 'kasperp-tab-event'
+ - change event to use target and relatedTarget (which more closely resembles actual event api)
+ - changed event should be change event
+ - Merge branch 'tab-event' of https://github.com/kasperp/bootstrap into kasperp-tab-event
+ - Merge pull request #332 from pamelafox/patch-2
+ - adding button groups and toolbars like a boss
+ - round the corners on the search form inputs like a boss
+ - change h4 back to lineheight * 2
+ - update topbar dropdown arrow to match link and hover colors
+ - remove that test gradient
+ - huge update to forms, docs for the new forms, added a new link for js example to tabs/pills, add some new mixins
+ - initial idea for handling closing of modals from whatever element you want with .js-dismiss class
+ - updated forms.less to have better comments while pulling out all the old classes for input elements
+ - pulling out more stuff and fixing file name at top of file
+ - Think the option is supposed to be 'keyboard' in the docs, not 'closeOnEsc'.
+ - tweaked bootstrap-tabs plugin active tab selector to allow for nested tabs
+ - return this
+ - updated if statement form
+ - added bug fix for hide-before-show bug
+ - add semicolon to end of file while i think about better solution...
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - update table to support header and arrows
+ - Merge pull request #278 from adamnbowen/patch-1
+ - Fixes typos of "bootstrap"
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - fix reflow typo - should be $element not $backdrop
+ - Merge pull request #268 from workwithnano/patch-1
+ - Typo fix: "you're" to "your".
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - remove var O_O
+ - Merge pull request #259 from jacobfike/master
+ - fixes #258, clicking a tab remove .active class from all elements on the page
+ - listen to document for ie
+ - force reflow instead of relying on eventloop (firefox) listen to window for escape press
+ - lemme smang it giiiirl
+ - Merge pull request #241 from asmega/javascript_docs_favicon
+ - fixing locations of favicon + apple icons
+ - Added changed event to bootstrap-tabs.js
+ - fix broken topbars in javascript
+ - change version in makefile to 1.3
+ - Merge pull request #233 from cheeaun/patch-1
+ - Documentation typo/error on scrollSpy.
+ - update docs to remove old stuff, update to all new classes; no more backwards compatibility
+ - allow backdrop option to accept "static" option
+ - Adding flag to prevent backdrop click hiding modal
+ - fix fluid example
+ - Fix spelling mistake in pre on js page (/ul instead of /div).
+ - fix readme link spacing
+ - remake for version 1.3
+ - Merge branch 'master' of github.com:twitter/bootstrap into 1.3-wip
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - check for jquery/ender on window
+ - update alert message for ie7 to adjust dismiss icon, update example pages to clean up a few things from testing
+ - Merge pull request #219 from caniszczyk/1.3-wip
+ - Clarify documentation license to be CC BY 3.0
+ - add active class back to tabs
+ - fix tabs jitter bug when there is no active class
+ - expanding comment in application.js
+ - fixing conflict and recompiling
+ - updated table styles a bit and floated the fluid columns to clear the row dropping problem we were having
+ - $(document).ready instead of $(function() {}) for ender support
+ - mv 1.3.0 file names to plane bootstrap.css for submodulers
+ - remove table border seperate for ie
+ - move clearfix logic back onto clearfix class for ie7
+ - little fixes for ie 7
+ - update attributes for js and make tooltips reposition on resize
+ - allow multi-select lists in forms
+ - apply clearfix to appended input pattern to clear the floats
+ - updated browsers image
+ - fix tab-content and pre funkiness, convert p in tab content to div
+ - updates to docs to include more example html, include links to javascript docs where necessary
+ - remove theming section from docs
+ - adding quick and dirty favicons and touch icons for iOS
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - comment out box-shadow on masthead and footer in docs.css because Opera sucks at inset box-shadow :"
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - fix docs for opera
+ - remove theme.less and split preboot.less to mixins.less and variables.less to isolate customization from function
+ - remove adaptive, recomment theme.less to avoid comments in compiled
+ - resolve conflict
+ - fix topbar link with button bug
+ - Link Twitter account in readme
+ - Edited README.md via GitHub
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - make file shouldn't say file built successfully if error occurs
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - really make modals cover topbars and not cover the modal itself
+ - make modals cover topbars
+ - add version number to js comments
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - prevent default for hover click
+ - quick fix for .clearfix with unqualified selector in forms.less
+ - add links
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - few more js doc wording changes
+ - docs coppyy
+ - data-attribute="x" annndddd... now all js with ie7+ support
+ - index to use data attr for scrollspy initilizing
+ - data-attributes need values to be picked up by jquery in ie8 and below :/
+ - get all spec passing again
+ - Merge pull request #194 from samsoffes/patch-1
+ - change modal buttons back to be primary first
+ - Add pretty code coloring to readme
+ - fix problem with error styles in forms that clashed with alert-messages by qualifying the .error with .clearfix
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - theme.less file cleanup; fixing blockquotes in wells
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - method invocation jqueryui style
+ - update preboot comments about color scheme
+ - update theme.less todos and darken link hover color more
+ - remove border from dropdowns in topbar to prevent it from looking 1px off
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - make input prepend styles look a bit better
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - change hella js... broke all the tests. i <3 wip
+ - move the .brand from the parent to the a tag in the topbar; fix the moving text in IE7
+ - change template diagrams to be .media-grid
+ - remove qualifying tags in .span selectors for built in grid so that we can use .span-n classes in form styles
+ - oops, double commit last time; apply fixes to make select elements line up in IE7 with their labels, but no height fix
+ - fix legends in ie7
+ - fix legends in ie7
+ - make the less compile docs text now have widows, fix broken table markup
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - wait for window load event before positioning images, doi
+ - updated styles for the media grids
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - add static sizes for images so tooltips get right size on load
+ - adding more media sizes
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - add some notes on installing from command line and from makefile
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - adding media grid styles
+ - clicking open dropdown shoud close it
+ - add liscense to js files
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - add bootstrap-scrollspy
+ - add footer to js docs
+ - add stubbed out table for how to compile less
+ - tweak css for topbar to bring back z-index fix; update javascript markup and some heading text
+ - resolved conflict
+ - overhaul docs CSS since it was scalable, converted docs mastheads and footers to classes and HTML5 elements, add masthead to js docs page but make it slate so it looks cool and stands out
+ - add the dhg flavor back
+ - not feeling the slide in
+ - rework the transitions for the modal a bit
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - tooltip 1 word
+ - spelling mistake
+ - zebra stripe that shit
+ - conflict
+ - adding code and .label sections to type section
+ - adds twipsy js to regular index for positioning
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - add some more events to alerts and modal and update docs
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - adding .brand to topbar for alternative to using an h3 for wordmark; spelling mistakes fixed
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - finish up rounding out tests for all js plugins
+ - conflict
+ - trying to solve firefox active outline, make .input less specific
+ - more tests, more js goodness
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - move js plugins to root dir, begin writing tests, and change modal plugin to be more boss like
+ - adding docs for customizing the grid
+ - fix the stacked form legend style
+ - fix the grid before 1.3.0 drops soon
+ - start updating the grid docs for customizing it
+ - add version # to docs
+ - adding nested columns to the grid section
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - bug fixing
+ - remove aria-control stuff
+ - make dropdown menus appear above other elements on the page with a z-index
+ - resolve conflict
+ - update the modals and alert-messages to use the same .close styles, save for some positioning in the modal after knocking down the modal padding
+ - some more js love - update the docs with tabs/pills plugin
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - tabssss
+ - tweaks to table styles to make them use @basefont and @baseline
+ - bump css to 1.3.0, update makefile to reflect that, update form css to prepend form to the .clearfix to prevent some bullshit, small tweaks elsewhere
+ - what up breadcrumbs, we added you
+ - remove active state from dropdown
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - update diagrams to use smaller border radius, add new container-app example
+ - move javascript from examples into docs
+ - first pass at enabling active states in dropdowns in topbar and fixing the bug of having an active class on parent dropdown
+ - addng docs for the themes stuff and examples
+ - Merge pull request #149 from yury/version_var
+ - adding temp theme file to help with customization; still needs work
+ - use @VERSION var in build script
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - updated address examples
+ - adding support for and example ul in block-messages
+ - Merge branch '1.3-wip' of github.com:twitter/bootstrap into 1.3-wip
+ - adds small js section to docs index
+ - adding link support to regular text in the topbar
+ - updated hero example, added fluid example, resolved issue with tabs and fluid nav
+ - resolve conflict
+ - fix repeated margin-left
+ - updated container mixin to be fixed-container instead so we can keep the .container in scaffolding while removing the repeated code
+ - tweak readonly, disabled, and uneditable form elements
+ - Merge branch 'js-examples' into 1.3-wip
+ - more js chagnes
+ - Merge branch 'master' of github.com:twitter/bootstrap into js-examples
+ - improve CSS properties for centering content, the container, and fluid container so as to not override properties where possible
+ - welcome to 1.2.0
+ - fix broken checkbox in ie7
+ - remove rounded corners on buttons from IE9 so gradients don't bleed out
+ - fix docs.css spacing, add gradient support for ie9 back
+ - cleanup docs and fix gradient in masthead
+ - add reset filter to preboot for turning off gradients in IE when necessary; make :disabled [disabled] for crossbrowser usage
+ - resolve
+ - button tweaks
+ - \9 for 8 or less ie
+ - resolve conflicts
+ - update the file input to undo the damage of the generic input selector
+ - Merge branch '1.2-wip' of github.com:twitter/bootstrap into 1.2-wip
+ - Merge branch 'master' of github.com:twitter/bootstrap into 1.2-wip
+ - merge in master after merging a pull request, add comment
+ - Merge pull request #138 from pthrasher/master
+ - ran make build
+ - cleanup and tweaks
+ - incorporated idea from @markdotto in #138
+ - remove fixed width from topbar form to allow for applying classes to resize it
+ - ran make build, issues #136 and #138
+ - Fix for issue #136. Now nests fine in both layouts.
+ - add old dropdown support to tabs dropdowns
+ - fix dropdown bug, remove second topbar from docs now
+ - remove active state from buttons by moving the :active before :disabled
+ - resolve conflicts
+ - add temp second topbar to nav section, fix it's compatibility issues
+ - add doc styles back to topbar-inner
+ - fix for dropdown
+ - remake
+ - Merge branch '1.2-wip' of github.com:twitter/bootstrap into 1.2-wip
+ - div > ul ftw
+ - move comment so less compiles
+ - resolve conflict
+ - add backwards compatability for dropdowns in topbar
+ - this works O_O
+ - > seems to work O_O
+ - backwards compat for old nav o_O
+ - remove inset shadow from disabled buttons
+ - Merge branch '1.2-wip' of github.com:twitter/bootstrap into 1.2-wip
+ - for html5 style all inputs -- then unstyle checkbox, radio, button, reset, submit
+ - merging in remote and recompiling
+ - spelling mistakes and undo of one comment
+ - try daves background thing again...
+ - Merge branch 'master' of github.com:twitter/bootstrap into 1.2-wip
+ - rename all 1.1.1 stuff -> 1.2.0 and remove templates dir and fluid.html
+ - revert dhg mdo suggestion for fixing ie
+ - ie7 background toggle open
+ - remove * hack for ie7 + remove -1 margin bug for ie7
+ - Merge pull request #126 from DHS/fix-select-labels
+ - Merge pull request #125 from DHS/readme-spelling
+ - change type of comment
+ - Fixed duplicate element ids
+ - Fixed readme spelling mistake, closes #123
+ - fix background color for ie7 -- negative margin bug still there though ;_;
+ - fix open ui for ie 7
+ - lulz nbsp
+ - btn's need &nbps; seperating them for ie7
+ - remove repeated table reset
+ - adding more grid docs
+ - remove duplicate defined btn class O_O
+ - le merging conflicts
+ - resolving deltas between that epic css selector specifity pull request and latest changes here
+ - window -> body for ie
+ - move removeClass up
+ - drop top position a bit
+ - blah
+ - remake with opacity thin
+ - try using tricker opacity thingy
+ - listen to delegation for ie
+ - wrap for domready
+ - change window to 'body'
+ - alpha for ie
+ - change backdrop for ie
+ - add google code prettify
+ - add topbar dropdown js
+ - blahsdfasldflaskdfj
+ - rebuild and change data-attr to have priority over options
+ - make generic fade animation css class
+ - adds popover js
+ - redefine the grid to use attribute selectors with css regex, make previously fixed grid values use variables we use elsewhere
+ - remake
+ - add boostrap-twipsy and bootstrap-alerts
+ - Edited readme to include the versioning approach we'll be striving to use
+ - rename escape method
+ - clean up show logic
+ - white space junk
+ - sometimes i get emotional about semicolons
+ - display none for inactive modals
+ - starting up bootstrap-js...
+ - make dropdowns in the topbar black again
+ - adding dropdowns to tabs by refactoring the shizzzz out of them
+ - small typo in offset generation
+ - Merge remote branch 'origin/master' into 1.2-wip
+ - make and publish 1.1.1
+ - Merge branch '1.1.1-wip'
+ - update everything to 1.1.1
+ - clean up redundant google prettify code
+ - bump less version number in docs
+ - Merge pull request #89 from karthikv/clean-up
+ - Merge pull request #94 from weslly/master
+ - fixed background-color for disabled links in pagination ('none' isn't a valid value for background-color property http://www.w3.org/TR/CSS2/colors.html#propdef-background-color)
+ - Made JavaScript unobtrusive by factoring out prettyPrint() to application.js. Also removed unused class from hero demo.
+ - be more specific in gradient mixin
+ - updated le docs to include note about topbar and padding on box (issue #86) and add snippet about @basefont and @baseline to type section
+ - spacing
+ - pull table class from docs again
+ - resolve conflicts in merging in other branch
+ - updated docs for b/i tags based on issue #62
+ - updated classnames in the docs for the alerts, updated colors on error and info alerts/buttons
+ - Merge pull request #87 from igorbozato/patch-1
+ - .sidebar and .content in fluid layouts don't need to be divs
+ - resolve issue #87 in this branch
+ - merged in my pending changes from 1.2-wip branch, resolve diffs as best as i could, update docs and alerts to use original classes, updated docs to include smaller section for layouts
+ - remove common-table class in the docs
+ - clean up btn selectors a bit
+ - update alert and button styling aproach
+ - big update to change the alerts, normal and block level, to have simpler css and new colors independent of the base color scheme
+ - base import of normalize into the reset css, tweaks to selector specificity across the board
+ - add opera to browser support
+ - optimize btn for outputted code + line-height: normal for firefox with adjusted padding
+ - optimized grid system from @necolas
+ - Merge pull request #71 from DHS/fix-select-labels
+ - Fixed empty for fields on select labels
+ - add delete button + give .btn cursor:pointer
+ - comment out button method with // so less doesn't compile it into source
+ - append checkbox to password input #36
+ - remake
+ - goodbye -ms-filter.
+ - remove templates
+ - rename examples dir
+ - adding first template to the repo for a generic website page
+ - Bugfix and copy changes
+ - remake
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - fix copy for ie in docs
+ - Merge pull request #51 from Tigraine/master
+ - Merge pull request #58 from sankage/master
+ - changed @colorStop to be unitless
+ - fixed color-stop for opera, ie10, w3c, new webkit
+ - Fixed a syntax error preventing less compilation with dotless
+ - update copy for browser support
+ - v1.1.0
+ - finish cleaning up ie 7-8 support
+ - update few things for ie
+ - link docs to correct css
+ - fix crappy merge
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - Merge branch 'misc_css_fixes'
+ - remake
+ - go with greyed out next
+ - hide overflow for ie 7
+ - fix border for popover ie6-7
+ - remove ie8 hack
+ - ie-6/7 hack for border colors
+ - fix conflict
+ - 1 more space for disabled
+ - more tweaks to resolve some missed conflicts
+ - nonbreaking spaces for ie7 after buttons :/
+ - re-add div to error class
+ - resolve conflicts again and rebuild
+ - resolve conflicts
+ - merge in master, resolve conflicts
+ - upated compiled
+ - remake with latest
+ - Merge branch 'misc_css_fixes' of github.com:twitter/bootstrap into misc_css_fixes
+ - more little ie6-7 hacks :/
+ - updated to resolve conflicts
+ - resolve conflicts
+ - fix topbar dropdown active and hover states
+ - remove tags from form selectors
+ - fix color for alert blocks in ie6-7
+ - give popovers and modals border colors you can see in IE8 and down
+ - tweak pagination styles to include better border and box shadow
+ - rebuild and updated tables to remove tags from selectors
+ - updated list html, tweaks to patterns
+ - touch up less
+ - fix btn borders ie7/ie8
+ - Fix for alert box gradients in IE7/8
+ - make topbar .fill wrap
+ - fix disabled button for ie 8 and below
+ - pull filter gradients out completely because IE can't render them correctly in half of all instances and they are performance problems with them; tweak alert message styles, particularly close button;
+ - remove 60px top margin on body and tweak a few other things
+ - fix up the modals for ie8
+ - darken shadow for ie
+ - define button border size for ie
+ - add "shadows" for ie buttons
+ - remake
+ - no gradients on alerts for <= ie8
+ - ie hack
+ - rgba breaks whole def
+ - another attempt at getting ie border thign working
+ - remake junk
+ - more ie border junk
+ - don't display right border for ie
+ - remake with border fix
+ - give pagination nav borders in ie
+ - introduce .fill class to top-nav for overflow bug
+ - try only -ms-filter
+ - remake
+ - blah
+ - remake
+ - just disable filter
+ - add # to color
+ - ie8 dropdown tweaks
+ - ie Xp
+ - more debugging of ie nav display issues
+ - simplify drop down logic - fix color of search hover for ie
+ - fix error styles a bit on stacked form fields
+ - fix bg-clip property's old value, move from padding to padding-box
+ - updated compiled and minified, fix bug where links didn't inherit font weight
+ - more spacing and commenting
+ - more spacing tweaks
+ - docs spacing, spare divs in a few places, updating css spacing
+ - mozilla doesn't support color-stop() function in gradients
+ - remove rogue ul
+ - fixing conflict to merge in copy changes
+ - Merge pull request #30 from sankage/master
+ - merging in misc fixes to docs and css from other branch
+ - updated compiled css
+ - updated docs to fix inconsistent display of code elements, update scaffolding to fix padding issue on fluid containers, add placeholder hero unit in patterns for future use, continue to refactor some rgba to hex values
+ - Fix broken quotes and bizarre update of HTML5 to 6.
+ - Corrected semantic definitions of strong, em and b in Typography section.
+ - Merge pull request #21 from dliuzzi/patch-1
+ - Fixed a couple of missing parentheses.
+ - serif font stack would default to sans-serif
+ - adding more details on browser support, adding snippet of about text, changed p tags to have half the bottom margin
+ - updated docs and docs css to not use rgba colors on the layout modules so IE can see that shiz
+ - Merge pull request #16 from sankage/master
+ - fix topbar in docs as well
+ - fix spacing and confusion in example h1 heading with small tag
+ - fix typo
+ - updates to the topbar markup and css to remove the logo classname and simplify the selectors for it
+ - remove the cite tag from blockquote since we pulled it from the docs
+ - fix drag knob in firefox #7
+ - Simpler clearfix #2 http://nicolasgallagher.com/micro-clearfix-hack/
+ - Simplification for table header generated-content arrow #9
+ - small or cite tag for Blockquotes
+ - Merge pull request #12 from rafBM/master
+ - Lovely ellipses and apostrophes.
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - remove type attr from docs
+ - Oops, adding rel=stylesheet back to docs page
+ - update docs for correct usage of address, emphasis, and more
+ - Merge branch 'master' of github.com:twitter/bootstrap
+ - add rel="stylesheet" to doc text
+ - Merge pull request #1 from nimbupani/patch-2
+ - adding o/ms gradient and unprefixed one
+ - clean up readme
+ - Edited README.md via GitHub
+ - Cleaned up README.md - modified mailing list and google group
+ - update readme with info about makefile for devs
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - tweaks around names and such
+ - add google group
+ - fix local docs link + remove whitespace in gitignore
+ - Edited LICENSE via GitHub
+ - capitalize Less instead of using all caps
+ - capitalize github properly, fix url for compiled css
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - remove ds stores
+ - update docs with gh-pages
+ - fix doc link in readme
+ - add link to docs
+ - remove ds_store add an ugly gitignore file. boo.
+ - update whitspace and comment styles
+ - Boostrap lulz
+ - add github links
+ - fix up readme md
+ - resolve compiled css merge prob, refine few small things
+ - no idea what these changes are
+ - change popover stufff
+ - remove the twitter logo and change some wording
+ - new popover ideas
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - get rid of assets/img in favor of css arrows
+ - add build note back
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - add formal checks to makefile to make sure people have neccessary software installed add date to built file!
+ - add "make watch" to auto watch less files - change patterns.less to use opacity method
+ - getting popovers in
+ - spacing fixes
+ - rename modals to popovers
+ - drop padding on twipsies
+ - resolve merge conflict
+ - misc updates to docs and form bug fix
+ - add text to p tag doi
+ - clean up js a tiny bit
+ - add twipsies...
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - Updated offset columns, fix app.js bug, misc tweaks to copy
+ - Add new Tweet -> modal heading
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - read application.js
+ - fix sentence case on buttons
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - changing stacked forms to be lined up left side w/ 20px
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - add line number flag to stuff
+ - remove unused images
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - remove unnecessary js lang files from prettify, update styles for prettify
+ - remove chilllli
+ - updated docs
+ - fix footer text
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - attempts to resolve bad chrome position fixed bug
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - new license
+ - updated docs, fixed language, added copy-code js for selecting text on focus
+ - updated docs styles, notes in header of master file, etc
+ - adding note in the masthead about less.js and browser support
+ - clean up commented out css, slightly updated docs again
+ - updated docs call to actions for using bootstrap, tweaks to aesthetic
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - yo dawg i heard you liked mastheads
+ - trying out new doc style stuff
+ - Merge branch 'master' of http://git.local.twitter.com/bootstrap
+ - fix comments up for non minified built file
+ - form bug fix with new baseline, updated docs to fix topbar bug, tweaks to scaffolding for buttons
+ - fix spacing in readme
+ - bunch of small tweaks, fixed a typo
+ - remove display: inline from columns since it's an IE6 specific fix and doesn't work with floats
+ - updated header in master css
+ - update grid bg to 18px baseline, updated docs for disabled buttons
+ - adding attribution in footer, link up names, clean up button styles
+ - Merge branch 'master' of http://git.local.twitter.com/baseline
+ - reseting baseline to 18px, fixing wells, moving pre styles for chili to docs
+ - Merge branch 'master' of http://git.local.twitter.com/baseline
+ - update makefile and little comments
+ - resolve conflict
+ - fix license indent and make comments consistent
+ - stuff
+ - Merge branch 'master' of http://git.local.twitter.com/baseline
+ - nav change to undo the top nav bold active state
+ - add watchr command for prostyle developmentttt
+ - new buttons, new modal updates around spacing and placeholder content
+ - resolve conflict in patterns from modals
+ - more modal tweaks i think
+ - started workign on modals
+ - + add a make file which auto builds the bootstrap dist files + rebuild dist files + update index.html to point to bootstrap-1.0.0.css
+ - remove line
+ - Merge branch 'master' of http://git.local.twitter.com/baseline
+ - delete that shit
+ - Merge branch 'master' of http://git.local.twitter.com/baseline
+ - chmod
+ - Merge branch 'master' of http://git.local.twitter.com/baseline
+ - mucho updato around buttons to fix some stuff that was introduced with the bootstrap update
+ - fix table-sorter link
+ - update to use latest version of bootstrap, docs cleanup, etc
+ - updated to remove mention of blueprint
+ - add to readme + add license
+ - fancy scroll stuff and tiny js roundup/cleanup
+ - clean up org more
+ - cleanup old stuff
+ - rearranging everything
+ - Changing up boostrap for better grid variable management and grid structuring
+ - More subtle grid pattern, adding dropdown arrow, adding dropdown arrow styles to the topbar
+ - Added main topbar and shit.
+ - Added compiled CSS file and fixed link to do it
+ - Added in mini layout docs; cleaned up layout markup and added the css for it;
+ - More readme changes
+ - Updated docs styles for footer; updated readme;
+ - Updated documentation; added stacked forms; cleaned up spacing; moved all ids to the section element instead of the page header to fix spacing with bookmarked links;
+ - More documentation and content changes
+ - Remove the unnecessary global.js file, remove the old baseline grid image, add in hashgrid, update readme to remove finished todos;
+ - Porting over all Blueprint styles to new Baseline repo
+
